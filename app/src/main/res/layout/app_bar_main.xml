@@ -20,7 +20,102 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main" />
+    <ViewStub
+        android:id="@+id/main_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:inflatedId="@+id/message_layout" />
 
+    <ViewStub
+        android:id="@+id/building_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:inflatedId="@+id/message_layout" />
+
+    <ViewStub
+        android:id="@+id/grounds_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:inflatedId="@+id/message_layout" />
+
+    <ViewStub
+        android:id="@+id/roof_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:inflatedId="@+id/message_layout" />
+
+    <ViewStub
+        android:id="@+id/exterior_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:inflatedId="@+id/message_layout" />
+
+    <ViewStub
+        android:id="@+id/carport_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:inflatedId="@+id/message_layout" />
+
+    <ViewStub
+        android:id="@+id/kitchen_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:inflatedId="@+id/message_layout" />
+
+    <ViewStub
+        android:id="@+id/laundry_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:inflatedId="@+id/message_layout" />
+
+    <ViewStub
+        android:id="@+id/bathrooms_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:inflatedId="@+id/message_layout" />
+
+    <ViewStub
+        android:id="@+id/rooms_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:inflatedId="@+id/message_layout" />
+
+    <ViewStub
+        android:id="@+id/interior_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:inflatedId="@+id/message_layout" />
+
+    <ViewStub
+        android:id="@+id/plumbing_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:inflatedId="@+id/message_layout" />
+
+    <ViewStub
+        android:id="@+id/electrical_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:inflatedId="@+id/message_layout" />
+
+    <ViewStub
+        android:id="@+id/pool_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:inflatedId="@+id/message_layout" />
 
 </android.support.design.widget.CoordinatorLayout>
