@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="navigation_view">
-    <group android:checkableBehavior="single">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:title="New">
-
         <menu>
+        <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/building_button"
                     android:title="Building Data" />
@@ -45,14 +42,16 @@
                 <item
                     android:id="@+id/pool_button"
                     android:title="Pool" />
+        </group>
         </menu>
     </item>
     <item android:title="Options">
         <menu>
+        <group android:checkableBehavior="single">
             <item
                 android:id="@+id/open_button"
                 android:title="Open" />
+        </group>
         </menu>
     </item>
-    </group>
 </menu>
