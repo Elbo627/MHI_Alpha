@@ -2,37 +2,57 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
+    <item android:title="New">
 
-    <item android:title="Communicate">
         <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                <item
+                    android:id="@+id/building_button"
+                    android:title="Building Data" />
+                <item
+                    android:id="@+id/grounds_button"
+                    android:title="Grounds" />
+                <item
+                    android:id="@+id/roof_button"
+                    android:title="Roof" />
+                <item
+                    android:id="@+id/exterior_button"
+                    android:title="Exterior" />
+                <item
+                    android:id="@+id/carport_button"
+                    android:title="Carport" />
+                <item
+                    android:id="@+id/kitchen_button"
+                    android:title="Kitchen" />
+                <item
+                    android:id="@+id/laundry_button"
+                    android:title="Laundry Room" />
+                <item
+                    android:id="@+id/bathrooms_button"
+                    android:title="Bathrooms" />
+                <item
+                    android:id="@+id/rooms_button"
+                    android:title="Rooms" />
+                <item
+                    android:id="@+id/interior_button"
+                    android:title="Interior" />
+                <item
+                    android:id="@+id/plumbing_button"
+                    android:title="Plumbing" />
+                <item
+                    android:id="@+id/electrical_button"
+                    android:title="Electrical/Cooling" />
+                <item
+                    android:id="@+id/pool_button"
+                    android:title="Pool" />
         </menu>
     </item>
-
+    <item android:title="Options">
+        <menu>
+            <item
+                android:id="@+id/open_button"
+                android:title="Open" />
+        </menu>
+    </item>
+    </group>
 </menu>
